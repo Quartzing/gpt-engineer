@@ -1,0 +1,37 @@
+language: python
+objective: train and evaluate a simple transformer model with natural language. classes and functions are split into different folders and files. To clarify, please refer to the following question-answer pairs (Q denotes question, A denotes answer):
+Q. What is the specific objective of training and evaluating the transformer model?
+A. To answer questions like an autonomous agent.
+
+Q. How are the classes and functions split into different folders and files?
+A. The classes should be placed into the files with the same name, each class for a file.
+
+Q. Are there any specific requirements or constraints for the transformer model?
+A. It should be a very simple transformer model.
+
+Q. Are there any specific libraries or frameworks that should be used for training and evaluation?
+A. We should use pytorch, transformer lib from huggingface
+
+Q. Are there any specific datasets or data preprocessing steps required for the model?
+A. We can create a simple dataset with several lines of english questions and answers.
+
+Q. Are there any specific performance metrics or evaluation criteria for the model?
+A. Just use the most widely acceptable metrics.
+
+Q. Are there any specific instructions for the structure or organization of the code files and folders?
+A. There should be src folder for all python codes, and tools folder for auxiliary tooling, a dataset folder to store datasets, a model folder to store model files. And there should be requirement.txt file to store the pip requirements. in the src folder, there should be files for train/test/model, each stores the related modules/class/functions, and there should be a run.py as the main and only entrance to import and run everything (training, testing, evaluation, etc.). When running run.py, we should be able to give command line arguments.
+
+Q. Are there any specific guidelines for the naming conventions of the classes and functions?
+A. Let's use google python naming convention.
+
+Q. Are there any specific input/output formats or data types for the model?
+A. We can use jsonl for the file formats and utf-8 as the string type in the data.
+
+Q. Are there any specific instructions for handling errors or exceptions in the code?
+A. Please raises the exceptions with printing the error messages.
+
+Q. Are there any specific instructions regarding docstrings?
+A. The docstrings should be as explict as possible, each file, class, class members, functions and each line of execution code should have docstring explaining what is this line/class/function/member about, and the docstring format should be in google python format. 
+
+Q. Should there be a README.md file?
+A. Yes, put a README.md file to explain how to use the codebase.
